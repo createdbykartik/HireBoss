@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Text">
+
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".CardViewActivity"
+    android:layout_marginTop="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/phone"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#EEEEEE"
+        android:enabled="true"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:fontFamily="GillSans"
+        android:gravity="center"
+        android:linksClickable="false"
+        android:password="false"
+        android:phoneNumber="false"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+
+        android:text="Enter the phone number to receive the validation code"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="visible" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.hireboss.android.roachlabs.Util.EditTextWithFont
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/mobno"
+            android:hint="Mobile Number"
+            android:gravity="center"
+            android:maxLength="10"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.74" />
+
+        <Button
+            android:id="@+id/btsend"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="72dp"
+            android:background="@drawable/roundedbutton"
+            android:fontFamily="sans-serifl"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="✓"
+            android:textColor="#ffffff"
+
+            android:textSize="25dp">
+
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

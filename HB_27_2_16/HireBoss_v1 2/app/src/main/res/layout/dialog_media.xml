@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:id="@+id/dialog_social_layout"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_media"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:background="@color/orange"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp" >
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="16dp"
+                android:gravity="top"
+                android:orientation="vertical" >s
+
+                <com.hireboss.android.roachlabs.font.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Rate this Boss!"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    app:typeface="robotoLight" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="right" >
+
+
+
+            <com.hireboss.android.roachlabs.font.RobotoTextView
+                android:id="@+id/dialog_media_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/lightpink"
+                android:gravity="center_horizontal"
+                android:minWidth="64dp"
+                android:padding="8dp"
+              android:text="SUBMIT"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                app:typeface="robotoCondensed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout1"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RatingBar
+                    android:id="@+id/dialog_media_ratingBar"
+                    style="@style/dialogMediaRationBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp">
+                </RatingBar>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
+<!--
+<ImageView
+                android:id="@+id/dialog_media_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:layout_weight="0" />
+-->

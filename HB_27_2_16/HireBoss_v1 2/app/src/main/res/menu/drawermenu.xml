@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/group_name_id">
+
+    <item android:title=""
+          android:id="@+id/name_user"
+         />
+    </group>
+    <group android:id="@+id/jobssettingsid">
+
+    <item android:title="Jobs till date"
+          android:id="@+id/jobs"
+          android:icon="@drawable/jobstilldate"/>
+
+    <item android:title="Ongoing Job"
+          android:id="@+id/ongoing"
+          android:icon="@drawable/ongoingjob"/>
+
+
+    </group>
+
+
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="Problem? Contact Us"
+              android:icon="@drawable/callus"
+            android:id="@+id/contactus"/>
+        <item android:title="Rate Us"
+            android:id="@+id/ratus"
+            android:icon="@drawable/rateus"/>
+        <item android:title="About Us"
+            android:id="@+id/abtus"
+             android:icon="@drawable/aboutus"/>
+    </group>
+
+
+</menu>
+<!--
+    <item android:title="HB Wallet">
+        <menu>
+            <item
+                android:title="Cash in hand"
+                android:icon="@drawable/cashinhand"/>
+
+        </menu>
+    </item>
+
+-->

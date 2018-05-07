@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_emi.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_emi.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cash_card.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_cash_card.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_merchant_payment.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_merchant_payment.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_payments.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_payments.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_net_banking.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_net_banking.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_card.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_card.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_user_cards.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_user_cards.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_base.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_base.xml"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\debug\\menu\\menu_verify_api.xml",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\menu\\menu_verify_api.xml"
+    }
+]

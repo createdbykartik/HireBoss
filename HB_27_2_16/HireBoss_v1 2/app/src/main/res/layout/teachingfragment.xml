@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal|top"
+        android:scrollbars="none">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:isScrollContainer="true">
+            <android.support.v7.widget.CardView
+                android:id="@+id/musicalinstrument"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:onClick="taskSelect"
+
+                android:isScrollContainer="true">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:tint="#aaffffff"
+                    />
+
+                <LinearLayout
+                    android:background="#e6e6e6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="8dp"
+                    android:backgroundTint="#00555555"
+                    >
+
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/listitem_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MUSICAL INSTRUMENT"
+                        android:textSize="30sp"
+                        android:layout_marginTop="75dp"
+                        android:layout_gravity="left"
+                        android:textColor="#ffffff"
+                        android:typeface="normal"
+
+                        />
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/item_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="120.00/- Hr &#038; 10.00/- KM"
+                        android:textColor="#ffffff"
+                        android:typeface="serif"
+                        android:layout_gravity="left"
+
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/academics"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:onClick="taskSelect"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:tint="#aaffffff"
+                    />
+
+                <LinearLayout
+                    android:background="#e6e6e6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="8dp" android:backgroundTint="#00555555"
+                    >
+
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/listitem_name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ACADEMICS"
+                        android:textSize="30sp"
+                        android:layout_marginTop="75dp"
+                        android:layout_gravity="left"
+                        android:textColor="#ffffff"
+
+                        />
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/item_price2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="120.00/- Hr &#038; 10.00/- KM"
+                        android:textColor="#ffffff"
+
+                        android:layout_gravity="left"
+
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/gymtrainer"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:onClick="taskSelect"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:tint="#aaffffff"
+                    />
+
+                <LinearLayout
+                    android:background="#e6e6e6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="8dp" android:backgroundTint="#00555555"
+                    >
+
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/listitem_name5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GYM TRAINER"
+                        android:textSize="30sp"
+                        android:layout_marginTop="75dp"
+                        android:layout_gravity="left"
+                        android:textColor="#ffffff"
+
+                        />
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/item_price5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="120.00/- Hr &#038; 10.00/- KM"
+
+                        android:textColor="#ffffff"
+                        android:layout_gravity="left"
+
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/languuageteacher"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:onClick="taskSelect"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:tint="#aaffffff"
+                    />
+                <LinearLayout
+                    android:background="#e6e6e6"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="8dp" android:backgroundTint="#00555555"
+                    >
+
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/listitem_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LANGUAGE TEACHER"
+                        android:textSize="30sp"
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="75dp"
+                        android:layout_gravity="left"
+
+                        />
+                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                        android:id="@+id/item_price1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#ffffff"
+                        android:text="120.00/- Hr &#038; 10.00/- KM"
+
+                        android:layout_gravity="left"
+
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
+
+
+    <!-- android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                    card_view:cardElevation="4sp"
+
+                   -->

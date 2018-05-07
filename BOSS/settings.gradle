@@ -1,0 +1,2 @@
+include ':app', ':PayU-release', ':CustomBrowser-release', ':sdkui', ':StickyListHeaders'
+include ':app', ':PayU-release', ':sdkui', ':CustomBrowser-release'

@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/orange">
+
+    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ENTER AMOUNT TO ADD"
+        android:id="@+id/textView"
+        android:inputType="numberDecimal"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <com.hireboss.android.roachlabs.Util.EditTextWithFont
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="here"
+        android:padding="10dp"
+        android:enabled="true"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:inputType="number|numberDecimal" />
+</LinearLayout>

@@ -1,0 +1,115 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">#fff</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">#512d9f</item>
+        <item name="android:statusBarColor">#000</item>
+    </style>
+
+
+    <style name="CustomToolBarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:background">@color/primaryColor</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+
+        <item name="android:textSize">20sp</item>
+        <!-- text size in menu-->
+
+        <item name="android:listPreferredItemHeightSmall">40dp</item>
+        <!-- item size in menu-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#000</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">#000</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#FF1784C7</item>
+        <!--<item name="colorButtonNormal">#2196f3</item>-->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="CustomListViewStyle" parent="Widget.AppCompat.ListView">
+        <item name="android:listSelector">#003366</item>
+    </style>
+
+
+    <style name="TextViewAppearance" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="typeface">robotoRegular</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">26dp</item>
+        <item name="android:paddingRight">26dp</item>
+        <!-- Supports API Level 17+ -->
+        <!-- <item name="android:paddingStart">26dp</item> -->
+        <!-- Supports API Level 17+ -->
+        <!-- <item name="android:paddingEnd">26dp</item> -->
+    </style>
+
+    <style name="TextViewAppearance.Display2" parent="@style/TextViewAppearance">
+        <item name="typeface">robotoThin</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textColor">@color/main_color_grey_500</item>
+    </style>
+
+    <style name="TextViewAppearance.Headline2" parent="@style/TextViewAppearance">
+        <item name="typeface">robotoLight</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/main_color_grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Title2" parent="@style/TextViewAppearance">
+        <item name="typeface">robotoRegular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/main_color_grey_400</item>
+    </style>
+
+    <style name="TextViewAppearance.Body2" parent="@style/TextViewAppearance">
+        <item name="typeface">robotoLight</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/main_color_grey_600</item>
+    </style>
+
+    <style name="TextViewAppearance.Caption2" parent="@style/TextViewAppearance">
+        <item name="typeface">robotoLight</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/main_color_grey_400</item>
+    </style>
+
+    <!--dialog-->
+    <style name="dialogMediaRationBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/dialog_media_rating_bar_full</item>
+        <item name="android:minHeight">36dip</item>
+        <item name="android:maxHeight">36dip</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

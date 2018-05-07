@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hireboss.android.roachlabs.RoachLabs"
+    tools:showIn="@layout/activity_roach_labs">
+    <android.support.v7.widget.CardView
+
+        android:layout_margin="6dp"
+        android:id="@+id/shopping"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        card_view:cardCornerRadius="6dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        card_view:cardElevation="4dp"
+        android:background="@color/material_orange_500"
+
+
+        android:isScrollContainer="true">
+
+
+    <com.nirhart.parallaxscroll.views.ParallaxScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:parallax_factor="1"
+        app:alpha_factor="1.9"
+        tools:context=".MainActivity"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+
+            android:background="@drawable/roachlabs"
+            android:tint="#aaffffff"
+            />
+
+        <com.hireboss.android.roachlabs.Util.TextViewWithFont
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:text="Guys behind the scene:[click to view Facebook profiles]"
+
+            />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <com.hireboss.android.roachlabs.Util.TextViewWithFont
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/yeshu"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Yeshu Agarwal"
+            android:background="@color/cpb_blue_dark"
+            android:textColor="#fff"/>
+        <com.hireboss.android.roachlabs.Util.TextViewWithFont
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/arjun"
+            android:textColor="#fff"
+            android:background="@color/cpb_red"
+            android:text="Arjun R Nambiar"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <com.hireboss.android.roachlabs.Util.TextViewWithFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="@color/cpb_green_dark"
+            android:id="@+id/gurdev"
+            android:layout_marginBottom="20dp"
+            android:textSize="25dp"
+            android:text="Gurdev Singh"/>
+        <com.hireboss.android.roachlabs.Util.TextViewWithFont
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/kartik"
+            android:textColor="#fff"
+            android:background="#891966"
+            android:text="Kartik V Chadha"/>
+            </LinearLayout>
+
+    </LinearLayout>
+    </com.nirhart.parallaxscroll.views.ParallaxScrollView>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+

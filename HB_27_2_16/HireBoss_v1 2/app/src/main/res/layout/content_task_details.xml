@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hireboss.android.roachlabs.FinishTask"
+    tools:showIn="@layout/activity_finish_task">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <android.support.v7.widget.CardView
+
+            android:layout_margin="6dp"
+            android:id="@+id/shopping"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            card_view:cardCornerRadius="6dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            card_view:cardElevation="4dp"
+            android:background="@color/material_orange_500"
+
+
+            android:isScrollContainer="true">
+
+
+            <LinearLayout
+                android:background="@color/material_orange_500"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="6dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="6dp"
+
+
+                >
+                <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                    android:id="@+id/taskdetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Task Summary"
+                    android:textSize="40sp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#fff"
+
+                    />
+                <com.nirhart.parallaxscroll.views.ParallaxScrollView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:parallax_factor="1.9"
+                    app:alpha_factor="1.9"
+                    tools:context=".MainActivity"
+                    android:scrollbars="none">
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="@dimen/activity_horizontal_margin"
+                            android:paddingRight="@dimen/activity_horizontal_margin"
+                            android:paddingTop="6dp"
+                            >
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/user_pic"
+                                android:layout_width="96dp"
+                                android:layout_height="96dp"
+                                android:layout_alignParentLeft="true"
+                                android:elevation="10dp"
+                                />
+
+                            <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+
+                                android:id="@+id/username_value"
+                                android:layout_marginTop="35dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentRight="true"
+
+                                android:textSize="35sp"
+                                android:textColor="#fff"
+
+                                />
+                        </RelativeLayout>
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:scrollbars="none">
+                            <LinearLayout
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+              >
+
+
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:id="@+id/taskid"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task ID"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/taskid_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginRight="30dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                                        android:id="@+id/task"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/task_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                                        android:id="@+id/taskdesc"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Description"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+
+                                        android:id="@+id/taskdescription_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                                        android:id="@+id/createdat"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Start Time"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+
+                                        android:id="@+id/createdat_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                                        android:id="@+id/finishedat"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="End Time"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+
+                                        android:id="@+id/finishedat_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                                        android:id="@+id/tasktime"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Duration"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+
+                                        android:id="@+id/tasktime_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                                        android:id="@+id/taskdistance"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Task Distance"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+
+                                        android:id="@+id/taskdistance_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+
+                                        android:id="@+id/itemamount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Item Value"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+
+                                        android:id="@+id/itemamount_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:id="@+id/itemdescription"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Item Description"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/itemdescription_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:id="@+id/baseamount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Base Fare"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/baseamount_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:id="@+id/timefare"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Time Fare"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/timefare_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:id="@+id/distancefare"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Distance Fare"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/distancefare_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:id="@+id/conveniencecharges"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Convenience Charges"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/conveniencecharges_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:background="@color/material_orange_500"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"/>
+                                <RelativeLayout
+                                    android:background="@color/orange"
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingBottom="6dp"
+                                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                                    android:paddingRight="@dimen/activity_horizontal_margin"
+                                    android:paddingTop="6dp"
+                                    >
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:id="@+id/amountpaid"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Total Fare"
+                                        android:textSize="25sp"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="#fff"
+
+                                        />
+                                    <com.hireboss.android.roachlabs.Util.TextViewWithFont
+                                        android:layout_marginTop="6dp"
+                                        android:id="@+id/amountpaid_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentRight="true"
+                                        android:text=""
+                                        android:textSize="20sp"
+
+                                        android:textColor="#fff"
+
+                                        />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+                </com.nirhart.parallaxscroll.views.ParallaxScrollView>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>
+    <!--<WebView
+                android:id="@+id/webView"
+                android:layout_width="fill_parent"
+                android:layout_height="225dp"
+                >
+
+            </WebView>
+    -->

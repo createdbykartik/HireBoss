@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\master.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\master.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\discover.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\discover.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\diner.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\diner.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\visa.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\visa.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\jcb.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\jcb.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\laser.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\laser.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\amex.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\amex.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\maestro.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\maestro.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\card.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\card.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\trash.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\trash.png"
+    },
+    {
+        "merged": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\app_bar_next.png",
+        "source": "C:\\HB22_01_16\\HireBoss_v1 2\\sdkui\\src\\main\\res\\mipmap-xxxhdpi\\app_bar_next.png"
+    }
+]
